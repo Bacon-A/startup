@@ -1,2 +1,2 @@
 # startup
-Startup Web Application...
+Startup Web Application.
