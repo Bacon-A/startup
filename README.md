@@ -4,5 +4,6 @@ Visual Studio Code is easily capable of working with GitHub effectively. You can
 
 Key Features
 
-*Secure login over HTTPS.
+- Secure login over HTTPS.
+- Stuff
 
