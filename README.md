@@ -11,7 +11,7 @@ Have you ever wanted to be able share messages with your friends and show them w
 
 Key Features
 - Secure login over HTTPS.
-- Record a message with their location.
+- Ability to record a message with a location.
 - Displays all current users.
 - All posts are persistently sored.
 - All users with posts have a current timeline.
