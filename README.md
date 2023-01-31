@@ -15,4 +15,4 @@ Key Features
 - All posts are persistently sored.
 - All users with posts have a current timeline.
 
-Web Address 18.118.186.110
+Web Address 18.118.186.110 or 3.23.207.221 (allocated)
