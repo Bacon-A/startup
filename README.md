@@ -25,6 +25,6 @@ Reproducing the simon application has been a useful tool for learning proper HTM
 Notice the general grouping of head, then body. Within body we have a header, a main, and then a footer.
 This format style should be useful for my application
 
-Menu items as /<li> should also work. Put navigation elements within a <nav>
+Menu items as "<li>" should also work. Put navigation elements within a "<nav>"
   
 
