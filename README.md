@@ -18,3 +18,9 @@ Key Features
 Web Address 3.23.207.221
 
 Web Site - http://thisisawebsite.click/
+
+Simon Application
+
+Reproducing the simon application has been a useful tool for learning proper HTML.
+Notice the general grouping of head, then body. Within body we have a header, a main, and then a footer.
+This format style should be useful for my application
