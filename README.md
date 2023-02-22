@@ -29,3 +29,6 @@ Menu items as "li" should also work. Put navigation elements within a "nav".
   
 To include Bootstrap in your application using NPM you would run the following from your console. 
 npm install bootstrap@5.2.3
+
+Make sure to keep the .css very well organized so as to be able to clearly see what is happening.
+
