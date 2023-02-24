@@ -15,19 +15,7 @@
       crossorigin="anonymous"
     />
     <style>
-      /* Center align the title at the top */
-      .title-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 20vh;
-      }
-
-      /* Increase font size of the title */
-      .large {
-        font-size: 3em;
-      }
-
+  
       /* Style the login button and text box */
       .login-container {
         display: flex;
@@ -40,65 +28,42 @@
         margin-right: 10px;
       }
 
-      /* Center align the users section */
-      .users-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-      }
-
-      /* Style the table */
-      table {
-        border-collapse: collapse;
-        margin-top: 20px;
-      }
-
-      td {
-        padding: 10px;
-        border: 1px solid black;
-      }
-
-      /* Style the clickable button */
-      .clickable {
-        cursor: pointer;
-        text-decoration: underline;
-        color: blue;
-      }
-
-      .wide-column {
-            width: 60%;
-        }
-        
+ 
     </style>
 </head>
 <body>
-  <div class="container">
-      <h1 class="text-center mt-5">LocMessage</h1>
+  <div class="login-container">
+    <input type="text" placeholder="Username" />
+    <button>Login</button>
+  </div>
 
-      <div class="row mt-5">
-          <div class="col-6">
-              <h2>Users</h2>
-          </div>
-          <div class="col-6 text-end">
-              <p class="small text-muted">Click to see their posts!</p>
-          </div>
-      </div>
+<div class="container">
+        <h1 class="text-center mt-5">LocMessage</h1>
 
-      <table class="table mt-5">
-          <tbody>
-              <tr>
-                  <td class="wide-column">John</td>
-                  <td><a href="#">View Posts</a></td>
-              </tr>
-              <tr>
-                  <td class="wide-column">Jane</td>
-                  <td><a href="#">View Posts</a></td>
-              </tr>
-              <tr>
-                  <td class="wide-column">Bob</td>
-                  <td><a href="#">View Posts</a></td>
-              </tr>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h2 class="mb-3">Users</h2>
+            </div>
+            <div class="col-md-6 text-end">
+                <p class="small text-muted mb-0">Click to see their posts!</p>
+            </div>
+        </div>
+
+        <table class="table mt-5">
+            <tbody>
+                <tr>
+                    <td class="w-50">John</td>
+                    <td><a href="#">View Posts</a></td>
+                </tr>
+                <tr>
+                    <td class="w-50">Jane</td>
+                    <td><a href="#">View Posts</a></td>
+                </tr>
+                <tr>
+                    <td class="w-50">Bob</td>
+                    <td><a href="#">View Posts</a></td>
+                </tr>
+            </tbody>
     </table>
   </div>
 
