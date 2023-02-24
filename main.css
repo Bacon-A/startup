@@ -1,6 +1,19 @@
 body {
     background-color: grey;
   }
+  
+
+        .login-container {
+          display: flex;
+          align-items: center;
+          margin-top: 20px;
+          margin-left: 20px;
+        }
+  
+        .login-container button {
+          margin-right: 10px;
+        }
+
   #users-posts {
     display: flex;
     justify-content: space-between;

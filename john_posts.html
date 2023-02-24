@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posts</title>
+
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Include bootstrap CSS framework -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <?php
+      // Get the user's name from the URL
+      $name = $_GET["name"];
+      ?>
+      <h1 class="text-center mt-5"><?php echo $name ?>'s Posts</h1>
+
+      <table class="table mt-5">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Post</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>9:00 AM</td>
+            <td>Today I went on an awesome trip to San Francisco.</td>
+            <td>
+              <a href="https://www.google.com/maps?q=37.7749,-122.4194">San Francisco</a>
+            </td>
+          </tr>
+          <tr>
+            <td>10:00 AM</td>
+            <td>New York City Baby!!</td>
+            <td>
+              <a href="https://www.google.com/maps?q=40.7128,-74.0060">New York</a>
+            </td>
+          </tr>
+          <tr>
+            <td>11:00 AM</td>
+            <td>London bridge.. Big Ben. Such a dream.</td>
+            <td>
+              <a href="https://www.google.com/maps?q=51.5074,-0.1278">London</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Include bootstrap JavaScript framework -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-XoquNw2lOWlAJ30KjGHM/3UCX1AZCJYzRU+Tk7jyn5rJr5w5/f6pHDDmZ+U6J9U6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
