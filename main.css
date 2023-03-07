@@ -64,6 +64,10 @@ body {
     min-height: 100vh;
   }
 
+  .register-container {
+    margin-right: 20px;
+  }
+
   /* Define the container to be flexible */
   .container {
     flex: 1;
