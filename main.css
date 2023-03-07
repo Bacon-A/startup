@@ -59,9 +59,14 @@ body {
   }
   
   .wrapper {
-    min-height: 100%;
-    /* equal to footer height */
-    margin-bottom: -50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  /* Define the container to be flexible */
+  .container {
+    flex: 1;
   }
   
   .footer,
