@@ -24,14 +24,10 @@ function addUser(name) {
 }
 
 function init() {
-    // Load users from local storage
     const users = JSON.parse(localStorage.getItem('users')) || [];
-  
     for (const user of users) {
-      addUser(user.name);
+      addUser(user);
     }
   }
-
-window.addEventListener('load', init);
-
   
+  window.onload = init;
