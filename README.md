@@ -32,3 +32,6 @@ npm install bootstrap@5.2.3
 
 Make sure to keep the .css very well organized so as to be able to clearly see what is happening.
 
+Don't forget to add the new .js files into the html so that they can be accessed.
+
+Table naming should be accurate.
