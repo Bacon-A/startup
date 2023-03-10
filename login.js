@@ -5,7 +5,7 @@ function login() {
   const nameLogin = document.querySelector("#username");
   localStorage.setItem("userName", nameLogin.value);
   window.location.href = "john_posts.html";
-  console.log("ogin fuctino called");
+  console.log("login fuction called");
 }
 
 function register() {
