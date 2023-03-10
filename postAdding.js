@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Call the addPost function to add the new post to the array
         addPost(timeInput.value, postTextInput.value, locationInput.value);
   
-        const tableBody = document.querySelector('tbody');
+        const tableBody = document.querySelector('#post_table');
         const newRow = document.createElement('tr');
         newRow.innerHTML = `
           <td>${timeInput.value}</td>

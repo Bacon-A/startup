@@ -16,8 +16,8 @@ function addUser(name) {
     nameCell.textContent = name;
     link.textContent = 'View Posts';
     link.href = `#${name}-posts`;
-    viewPostsCell.appendChild(link);
-    viewPostsCell.classList.add('view-posts');
+    //viewPostsCell.appendChild(link);
+    //viewPostsCell.classList.add('view-posts');
   
     row.appendChild(nameCell);
     row.appendChild(viewPostsCell);
