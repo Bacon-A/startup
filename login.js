@@ -2,14 +2,15 @@
 //Unsecured
 //Using local storage
 function login() {
-  const nameEl = document.querySelector("#username");
-  localStorage.setItem("userName", nameEl.value);
+  const nameLogin = document.querySelector("#username");
+  localStorage.setItem("userName", nameLogin.value);
   window.location.href = "john_posts.html";
+  console.log("ogin fuctino called");
 }
 
 function register() {
-    const nameEl = document.querySelector("#regname");
-    const username = nameEl.value.trim();
+    const nameRegister = document.querySelector("#regname");
+    const username = nameRegister.value.trim();
   
     // Perform validation on the username
     // If validation fails, display an error message to the user and prevent further execution of the function.
