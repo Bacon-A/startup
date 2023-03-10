@@ -23,13 +23,19 @@ function addUser(name) {
     row.appendChild(viewPostsCell);
   
     table.appendChild(row);
+
+  // Add the new user to the list of users in local storage
+  const users = JSON.parse(localStorage.getItem('users')) || [];
+  users.push({ name });
+  localStorage.setItem('users', JSON.stringify(users));
+
   }
 
-function init() {
+  function init() {
+    const table = document.querySelector('#user-table tbody');
     const users = JSON.parse(localStorage.getItem('users')) || [];
+  
     for (const user of users) {
-      addUser(user);
+      addUser(user.name);
     }
   }
-  
-  window.onload = init;
