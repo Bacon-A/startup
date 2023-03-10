@@ -17,5 +17,7 @@ function register() {
   
     // Store the username in local storage or send it to a server-side script to store in a database.
     localStorage.setItem("userName", username);
-    window.location.href = "john_posts.html";
+    addUser(username); // add new user to the table
+    //window.location.href = "john_posts.html";
+    //Probably dont redirect with a register, only a login
   }

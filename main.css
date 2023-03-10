@@ -88,5 +88,7 @@ body {
     width: 100%;
   }
 
-  
+  .view-posts {
+    text-align: right;
+  }
   
