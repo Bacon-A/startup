@@ -1,4 +1,6 @@
 function showPostForm() {
+
+    console.log('Entering showPostForm function...');
     const form = document.createElement('form');
     form.innerHTML = `
       <label for="post-time">Time:</label>
@@ -13,6 +15,10 @@ function showPostForm() {
       <button type="submit">Add Post</button>
     `;
   
-    document.body.appendChild(form);
+    const container = document.querySelector('.container');
+    container.appendChild(form);
   }
+
+const addPostButton = document.querySelector('#add-post-button');
+addPostButton.addEventListener('click', showPostForm);
   
