@@ -15,7 +15,7 @@ function addUser(name) {
   
     nameCell.textContent = name;
     link.textContent = 'View Posts';
-    link.href = '#';
+    link.href = `#${name}-posts`;
     viewPostsCell.appendChild(link);
     viewPostsCell.classList.add('view-posts');
   
@@ -23,19 +23,10 @@ function addUser(name) {
     row.appendChild(viewPostsCell);
   
     table.appendChild(row);
-
-  // Add the new user to the list of users in local storage
-  const users = JSON.parse(localStorage.getItem('users')) || [];
-  users.push({ name });
-  localStorage.setItem('users', JSON.stringify(users));
-
-  }
-
-  function init() {
-    const table = document.querySelector('#user-table tbody');
-    const users = JSON.parse(localStorage.getItem('users')) || [];
   
-    for (const user of users) {
-      addUser(user.name);
-    }
+    // Add the new user to the list of users in local storage
+    const users = JSON.parse(localStorage.getItem('users')) || [];
+    users.push({ name });
+    localStorage.setItem('users', JSON.stringify(users));
   }
+  
