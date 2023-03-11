@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
       newRow.innerHTML = `
         <td>${post.time}</td>
         <td>${post.text}</td>
-        <td><a href="${post.location}">${post.location}</a></td>
+        <td><a href="https://www.google.com/maps?q=${post.location}">${post.location}</a></td>
       `;
       tableBody.appendChild(newRow);
     }
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         newRow.innerHTML = `
           <td>${timeInput.value}</td>
           <td>${postTextInput.value}</td>
-          <td><a href="${locationInput.value}">${locationInput.value}</a></td>
+          <td><a href="https://www.google.com/maps?q=${post.location}">${post.location}</a></td>
         `;
         tableBody.appendChild(newRow);
   
